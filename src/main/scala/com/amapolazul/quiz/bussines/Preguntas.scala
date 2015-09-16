@@ -16,7 +16,7 @@ import scala.util.{ Failure, Success }
 class Preguntas() {
 
   private val dao = PreguntasDAO
-|
+
   def crearPreguntas() = {
     val bufferedSource = io.Source.fromFile( "/temp/preguntas.csv" )( Codec.UTF8 )
     val future: Future[ Unit ] = dao.removeAll() map {
