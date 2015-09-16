@@ -18,6 +18,6 @@ object Boot extends App {
   implicit val system = ActorSystem( "QuizAmapola-backend" )
   val orchestrator = system.actorOf( QuizServiceActor.props, "quiz-amapola-service" )
   val host = "0.0.0.0"
-  val port = 8080
-  IO( Http ) ? Http.Bind( orchestrator, interface = host, port = port )
+  val port = Option( System.getenv( "PORT" ) ).getOrElse("8080")
+  IO( Http ) ? Http.Bind( orchestrator, interface = host, port = port.toInt )
 }

@@ -26,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Boot.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Boot.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/amapolazul/quiz/Boot.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="27" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.29032257">
+              <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -56,10 +56,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MongoDBContext.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MongoDBContext.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/amapolazul/quiz/persistence/config/MongoDBContext.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30967742">
+            <state vertical-scroll-proportion="0.0">
               <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
               <folding>
                 <element signature="e#48#84#0" expanded="true" />
@@ -118,7 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/com/amapolazul/quiz/Boot.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/amapolazul/quiz/persistence/dao/PreguntasDAO.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/amapolazul/quiz/persistence/dao/PreguntasEntity.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/amapolazul/quiz/marshallers/PreguntasMarshallers.scala" />
@@ -126,6 +125,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/amapolazul/quiz/services/PreguntasServiceTrait.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/amapolazul/quiz/bussines/Preguntas.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/amapolazul/quiz/persistence/config/MongoDBContext.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/amapolazul/quiz/Boot.scala" />
       </list>
     </option>
   </component>
@@ -682,14 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/amapolazul/quiz/Boot.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="27" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/amapolazul/quiz/services/PreguntasServiceTrait.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -716,11 +708,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/amapolazul/quiz/persistence/config/MongoDBContext.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30967742">
+        <state vertical-scroll-proportion="0.0">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding>
             <element signature="e#48#84#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/amapolazul/quiz/Boot.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29032257">
+          <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
+          <folding />
         </state>
       </provider>
     </entry>
