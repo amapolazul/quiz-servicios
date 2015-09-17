@@ -1,6 +1,7 @@
 package com.amapolazul.quiz.services
 
 import com.amapolazul.quiz.bussines.Preguntas
+import com.amapolazul.quiz.marshallers.PreguntasMarshallers
 import spray.http.StatusCodes
 import spray.routing.{ Route, RequestContext, HttpService }
 
@@ -23,7 +24,7 @@ trait PreguntasServiceTrait extends HttpService {
             val preguntasResponse = preguntas.consultarPreguntas()
             preguntasResponse.onComplete {
               case Success( preguntas ) =>
-                ctx.complete( ( StatusCodes.OK, preguntas ) )
+                ctx.complete( ( StatusCodes.OK, PreguntasMarshallers.Preguntas( "Preguntas consultadas correctamente", preguntas ) ) )
               case Failure( ex ) =>
                 println( "pailas" )
             }

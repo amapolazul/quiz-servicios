@@ -10,8 +10,7 @@ import scala.concurrent.ExecutionContext.Implicits.global
  */
 object MongoDBContext {
 
-
-//  val replicaSetHosts = List( "159.203.78.181:27017" )
+  //  val replicaSetHosts = List( "159.203.78.181:27017" )
   val replicaSetHosts = List( "ds027719.mongolab.com:27719" )
   val databaseName = "heroku_hqm0lq18"
   val user = "amapola"
