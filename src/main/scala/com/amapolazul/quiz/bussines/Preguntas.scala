@@ -18,7 +18,7 @@ class Preguntas() {
   private val dao = PreguntasDAO
 
   def crearPreguntas() = {
-    val bufferedSource = io.Source.fromFile( "/temp/preguntas.csv" )( Codec.UTF8 )
+    val bufferedSource = io.Source.fromFile( "/app/temp/preguntas.csv" )( Codec.UTF8 )
     val future: Future[ Unit ] = dao.removeAll() map {
       x =>
         {
