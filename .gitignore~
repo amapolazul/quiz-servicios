@@ -1,17 +1,40 @@
+*~
+.classpath
+/.settings
+.cache
+/project/project
+/project/target
+/target
+/jar
 *.class
 *.log
-
-# sbt specific
+.classpath
+.project
 .cache
 .history
-.lib/
+build.properties
+.settings/
+# sbt specific
 dist/*
 target/
 lib_managed/
 src_managed/
 project/boot/
 project/plugins/project/
-
 # Scala-IDE specific
 .scala_dependencies
-.worksheet
+/bin
+# Idea
+.idea
+*.iml
+bin/
+*.orig
+.idea/
+.idea_modules/
+*.psd
+*.pdf
+/test
+/spec
+./.sbt_home/*
+./target/*
+./.jdk/*
